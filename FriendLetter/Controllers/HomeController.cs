@@ -17,7 +17,7 @@ namespace FriendLetter.Controllers
     }
 
     [Produces("text/html")]
-    [Route("/letter")]
+    [Route("/")]
     public string Letter()
     {
       return
